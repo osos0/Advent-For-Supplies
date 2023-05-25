@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  font-family: cursive;
+  margin: 0;
+}
+
+body {
+  /* Optional: Set the text color to white for better visibility */
+}
+
+html {
+  min-height: 100vh !important;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: #393a59;
+  text-align: start;
+}
+
+select {
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+  font-size: 20px;
+  margin: 0 5px;
+  border: 1px solid rgb(21, 10, 48);
+  border-radius: 10px;
+}
+
+input {
+  outline: none;
+  border: 1px solid aquamarine;
+  padding: 5px;
+  border-radius: 10px;
+  margin: auto 5px;
+  background-color: rgb(21, 10, 48);
+  min-width: 90%;
+  color: aquamarine;
+}
+
+textarea {
+  outline: none;
+  border: 1px solid aquamarine;
+  padding: 5px;
+  border-radius: 10px;
+  margin: auto 5px;
+  background-color: rgb(21, 10, 48);
+  min-width: 90%;
+  color: aquamarine;
+}
+
+button {
+  background-color: red;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  color: white;
+  padding: 5px 20px;
+  margin: 10px;
+}
+
+.btnReverse {
+  background-color: gold;
+  color: rgb(21, 10, 48) !important;
+  border: 1px solid gold;
+  border-radius: 20px;
+  padding: 2px 15px;
+  margin: 10px;
+  transition: 500ms;
+  width: 40%;
+  margin: auto;
+}
+
+.btnReverse:hover {
+  background-color: transparent;
+  color: aquamarine !important;
+  border: 1px solid aquamarine;
+}
+
+form {
+  padding: 5px;
+}
+
+li {
+  list-style-type: none;
+}
+
+h4 {
+  font-size: 23px;
+  padding: 5px;
+}
+
+p {
+  font-size: 14px;
+  padding: 5px;
+}
+
+svg {
+  color: aquamarine;
+  font-size: 30px;
+  margin: auto 4px;
+}
+
+a {
+  margin: 10px 0;
+  color: black !important;
+  text-decoration: none;
+}
+
+span {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.bgcolor {
+  color: black;
+}
+
+.allNav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 1px 30px rgba(20, 20, 20, 0.5);
+}
+.allNav .navFix {
+  flex-grow: 0;
+  padding: auto 20px;
+}
+.allNav .navFix li {
+  margin: auto 10px;
+}
+
+.logostyling {
+  width: 80px;
+}
+
+.aboutCon {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerCon {
+  padding: 10px 5px;
+  overflow: hidden;
+  margin: 0;
+  text-align: start !important;
+}
+.footerCon .bigLogoCon img {
+  max-width: 100%;
+}
+.footerCon .rightFooter {
+  text-align: left;
+}
+.footerCon .rightFooter svg {
+  color: #dd3170;
+  width: 70px;
+}
+.footerCon .rightFooter .footerFontAwsomeCon {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerCon .rightFooter .smallConFont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footerCon h1 {
+  text-align: center;
+}
+.footerCon a {
+  display: block;
+}/*# sourceMappingURL=main.css.map */

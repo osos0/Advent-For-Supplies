@@ -1,0 +1,21 @@
+.customersCon {
+  // border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  //   align-items: center;
+
+  .cusChildCon {
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    img {
+      width: 200;
+      height: 150px;
+      padding: 10px;
+    }
+  }
+}

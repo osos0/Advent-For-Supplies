@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import { Fragment } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+import "./styles/main.scss";
+import Navbar from "./componantes/Navbar";
+import Footer from "./componantes/Footer";
+import Home from "./pages/Home";
+import AboutusPage from "./pages/Aboutus-page";
+import Contactuspage from "./pages/Contactus-page";
+import CustomersPage from "./pages/Customers-page";
+import Newspage from "./pages/News-Page";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutus" element={<AboutusPage />} />
+        <Route path="/news" element={<Newspage />} />
+        <Route path="/customers" element={<CustomersPage />} />
+        <Route path="/contactus" element={<Contactuspage />} />
+      </Routes>
+      <Footer />
+    </Fragment>
   );
 }
 

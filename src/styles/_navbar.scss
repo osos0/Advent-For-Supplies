@@ -1,0 +1,63 @@
+@use "./Vars" as *;
+
+.allNav {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  // background-color: white;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  padding: 0;
+
+  .navFix {
+    flex-grow: 0;
+    padding: auto 20px;
+
+    //   width: 50%;
+    //   border: $test;
+    li {
+      margin: auto 10px;
+    }
+  }
+}
+
+a {
+  color: $Pink !important;
+}
+.licolor {
+  // color: white !important;
+  // color: linear-gradient(rgba(0, 0, 0, 0.9), transparent);
+}
+
+.logostyling {
+  width: 50px;
+}
+
+// Mobile Screens
+@media (max-width: 767px) {
+  .allNav {
+    position: sticky;
+    background-color: rgb(58, 63, 71) !important;
+  }
+}
+// Small Screens
+@media (min-width: 768px) {
+  .allNav {
+    position: sticky;
+    background-color: rgb(58, 63, 71) !important;
+  }
+}
+// Medium Screens
+@media (min-width: 992px) {
+  .allNav {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+}
+// large Screens
+@media (min-width: 1200px) {
+  .allNav {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+}
