@@ -1,0 +1,32 @@
+@use "./Vars" as *;
+
+#SERVICES {
+  padding: 40px 0;
+}
+
+.servChild {
+  padding: 40px 5px !important;
+  border: $test !important;
+  padding: 40px 25px !important;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 25px;
+  a {
+    color: $main-color !important;
+  }
+  svg {
+    border: $test;
+    padding: 10px;
+    border-radius: 8px;
+    color: $main-color !important;
+    font-size: 50px;
+    margin: 10px 0;
+  }
+
+  .secondSvg {
+    font-size: 13px;
+    margin: 0 10px;
+    border: none;
+    padding: 0;
+  }
+}

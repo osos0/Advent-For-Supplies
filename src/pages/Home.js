@@ -8,6 +8,7 @@ import Navbar from "../componantes/Navbar";
 
 import Footer from "../componantes/Footer";
 import Services from "../componantes/Services";
+import Counters from "../componantes/Counter";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <About />
         {/* <Customers /> */}
         {/* <FreeLanser /> */}
+        <Counters />
         <Footer />
       </div>
     </>

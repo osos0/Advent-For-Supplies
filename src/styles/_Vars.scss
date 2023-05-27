@@ -1,6 +1,5 @@
 // Global vars
 $aquamarine: aquamarine;
-$test: 1px solid red;
 
 $Pink: #dd3170;
 $blue: #393a59;
@@ -9,3 +8,4 @@ $Babyblue: rgb(198, 223, 223);
 $main-color: #09aff4;
 $main-color-back: #060922;
 $main-color-font: white;
+$test: 1px solid $main-color;

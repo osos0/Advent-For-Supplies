@@ -1,0 +1,32 @@
+@use "./Vars" as *;
+
+.Counters {
+  background-image: url("../img/pattern-bg-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  .countersChild {
+    text-align: center;
+    padding: 40px 5px !important;
+    border: $test !important;
+    border-top: 8px solid $main-color !important;
+    // border-right: 1px solid $main-color !important;
+    padding: 40px 25px !important;
+    width: 100%;
+    border-radius: 8px;
+    margin: 40px auto;
+    h1 {
+      font-size: 60px;
+      font-weight: 900;
+      text-align: center;
+    }
+    svg {
+      border: $test;
+      padding: 10px;
+      border-radius: 8px;
+      color: $main-color !important;
+      font-size: 50px;
+      margin: 10px 0;
+    }
+  }
+}

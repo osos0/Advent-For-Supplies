@@ -6,7 +6,7 @@
   align-items: center;
   position: relative;
   z-index: 100 !important;
-  border: $test;
+  // border: $test;
   width: 100%;
   height: 700px;
   .headerbg {
@@ -44,12 +44,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    border: $test;
+    // border: $test;
     .headerfonteawsomeIcones {
-      border: $test;
+      // border: $test;
       display: flex;
       svg {
-        border: $test;
+        // border: $test;
         font-size: 30px;
         margin: 10px;
       }
@@ -67,7 +67,7 @@
     }
   }
   .rightheader {
-    border: $test;
+    // border: $test;
     img {
       max-width: 100%;
     }
