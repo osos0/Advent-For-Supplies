@@ -25,8 +25,11 @@ section {
 }
 
 h1 {
-  color: $Pink;
+  // color: $main-color;
   text-align: start;
+}
+h5 {
+  color: $main-color;
 }
 
 select {
@@ -41,13 +44,14 @@ select {
 
 input {
   outline: none;
-  border: 1px solid $aquamarine;
+  border: 1px solid $main-color;
   padding: 5px;
-  border-radius: 10px;
-  margin: auto 5px;
+  // border-radius: 10px;
+  display: inline;
+  // margin: auto 5px;
   background-color: $blue;
-  min-width: 90%;
-  color: $aquamarine;
+  // min-width: 90%;
+  color: $main-color-font;
 }
 
 textarea {
@@ -62,10 +66,11 @@ textarea {
 }
 
 button {
-  background-color: $Pink;
-  border: 3px solid $Pink;
-  border-radius: 30px;
-  color: white;
+  background-color: $main-color;
+  border: 3px solid transparent;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: $main-color-font;
   padding: 5px 20px;
   margin: 10px;
 }
@@ -104,12 +109,13 @@ h4 {
 }
 
 p {
+  color: $main-color-font;
   font-size: 14px;
   padding: 5px;
 }
 
 svg {
-  color: $aquamarine;
+  color: $main-color-font;
   font-size: 30px;
   margin: auto 4px;
 }
@@ -117,7 +123,7 @@ svg {
 a {
   // display: block;
   margin: 10px 0;
-  color: black !important;
+  color: $main-color-font !important;
   text-decoration: none;
 }
 
@@ -127,6 +133,6 @@ span {
 }
 
 .bgcolor {
-  // background-color: $blue;
-  color: black;
+  background-color: $main-color-back !important;
+  color: $main-color-font;
 }

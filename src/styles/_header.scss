@@ -1,26 +1,83 @@
-.headerCon {
-  width: 100%;
+@use "./Vars" as *;
+
+.headerAll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  img {
-    min-height: 650px;
-  }
-  .boxFlow {
+  z-index: 100 !important;
+  border: $test;
+  width: 100%;
+  height: 700px;
+  .footerbg {
     width: 100%;
     height: 100%;
-    margin: auto;
+    // border: 1px solid red;
+    position: absolute;
     top: 0;
     left: 0;
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    background-image: url("../img/logo_3d.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1 !important;
+    opacity: 0.1;
+  }
+  // .headerCon {
+  //   padding: 10px 5px;
+  //   overflow: hidden;
+  //   margin: 0;
+
+  // background-color: rgb(198, 223, 223);
+  // padding: 10px;
+  // background: linear-gradient(
+  //   (rgb(0, 0, 0, 40%)),
+  //   (transparent),
+  //   (rgb(0, 0, 0, 40%))
+  // );
+  .leftCon {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    p {
-      color: white;
-      width: 50%;
+    border: $test;
+    .headerfonteawsomeIcones {
+      border: $test;
+      display: flex;
+      svg {
+        border: $test;
+        font-size: 30px;
+        margin: 10px;
+      }
+    }
+    button {
+      background-color: transparent;
+      border: 1px solid $main-color;
+      color: $main-color;
+      transition: 500ms;
+    }
+    button:hover {
+      background-color: $main-color;
+      border: 1px solid $main-color;
+      color: $main-color-font;
     }
   }
+  .rightheader {
+    border: $test;
+    img {
+      max-width: 100%;
+    }
+  }
+  text-align: start !important;
+  h5 {
+    text-align: center;
+    color: $main-color;
+  }
+  a {
+    // color: white;
+    display: block;
+  }
+  // }
 }
 
 // Mobile Screens

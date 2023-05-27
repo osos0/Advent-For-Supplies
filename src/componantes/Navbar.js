@@ -1,14 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../img/Advent_Logo.png";
+// import logo from "../img/Advent_Logo.png";
+import logo11 from "../img/logo_3d.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch, faSun } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
+  console.log(`hello`);
+
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light allNav">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img src={logo} alt="logo" className="logostyling" />
+            {/* <img src={logo} alt="logo" className="logostyling" /> */}
+            <img src={logo11} alt="logo" className="logostyling" />
           </Link>
           <button
             className="navbar-toggler"
@@ -65,6 +71,24 @@ const Navbar = () => {
                   to="/contactus"
                 >
                   Contact Us
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link licolor licolor"
+                  aria-current="page"
+                  to="/"
+                >
+                  <FontAwesomeIcon icon={faSearch} />
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link licolor licolor"
+                  aria-current="page"
+                  to="/"
+                >
+                  <FontAwesomeIcon icon={faSun} />
                 </Link>
               </li>
             </ul>

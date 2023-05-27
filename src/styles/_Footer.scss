@@ -1,57 +1,92 @@
 @use "./Vars" as *;
 
-.footerCon {
-  padding: 10px 5px;
-  overflow: hidden;
-  margin: 0;
-  // background-color: rgb(198, 223, 223);
-  padding: 10px;
-  // background: linear-gradient(
-  //   (rgb(0, 0, 0, 40%)),
-  //   (transparent),
-  //   (rgb(0, 0, 0, 40%))
-  // );
-  .bigLogoCon {
-    img {
-      max-width: 100%;
-    }
+.footerAll {
+  position: relative;
+  z-index: 100 !important;
+  .footerbg {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-image: url("../img/footer-bg-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1 !important;
+    opacity: 0.1;
   }
-  .rightFooter {
-    text-align: left;
-    svg {
-      color: $Pink;
-      // width: 50px;
-      font-size: 20px;
-      padding: 0 10px;
-      width: 40px;
+  .footerCon {
+    padding: 10px 5px;
+    overflow: hidden;
+    margin: 0;
+
+    // background-color: rgb(198, 223, 223);
+    padding: 10px;
+    // background: linear-gradient(
+    //   (rgb(0, 0, 0, 40%)),
+    //   (transparent),
+    //   (rgb(0, 0, 0, 40%))
+    // );
+    .bigLogoCon {
+      .conOfSubscripe {
+        .conOfinput {
+          display: flex;
+          padding: 0;
+          height: auto;
+          min-width: 30px;
+          input {
+            max-width: 50% !important;
+          }
+          button {
+            margin: 0;
+            outline: none;
+            border-radius: 0;
+          }
+        }
+      }
+      img {
+        width: 25%;
+      }
     }
-    .footerFontAwsomeCon {
-      margin: auto;
-      // width: 80%;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      margin-top: 20px;
+    .rightFooter {
+      text-align: left;
       svg {
-        font-size: 40px;
+        color: $main-color;
+        // width: 50px;
+        font-size: 20px;
+        padding: 0 10px;
+        width: 40px;
+      }
+      .footerFontAwsomeCon {
+        margin: auto;
+        // width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        svg {
+          font-size: 35px;
+        }
+      }
+      .smallConFont {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center !important;
+        p {
+          margin: auto 10px;
+        }
       }
     }
-    .smallConFont {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center !important;
-      p {
-        margin: auto 10px;
-      }
+    text-align: start !important;
+    h5 {
+      text-align: center;
+      color: $main-color;
     }
-  }
-  text-align: start !important;
-  h3 {
-    text-align: center;
-    color: $Pink;
-  }
-  a {
-    // color: white;
-    display: block;
+    a {
+      // color: white;
+      display: block;
+    }
   }
 }

@@ -6,7 +6,7 @@
   top: 0;
   width: 100%;
   // background-color: white;
-  background-color: rgba(255, 255, 255, 0.2) !important;
+  // background-color: rgba(255, 255, 255, 0.2) !important;
   padding: 0;
 
   .navFix {
@@ -22,7 +22,7 @@
 }
 
 a {
-  color: $Pink !important;
+  color: $main-color-font !important;
 }
 .licolor {
   // color: white !important;
@@ -30,34 +30,38 @@ a {
 }
 
 .logostyling {
-  width: 50px;
+  width: 60px;
 }
 
 // Mobile Screens
 @media (max-width: 767px) {
   .allNav {
     position: sticky;
-    background-color: rgb(58, 63, 71) !important;
+    background-color: $main-color !important;
   }
 }
 // Small Screens
 @media (min-width: 768px) {
   .allNav {
     position: sticky;
-    background-color: rgb(58, 63, 71) !important;
+    background-color: $main-color !important;
   }
 }
 // Medium Screens
 @media (min-width: 992px) {
   .allNav {
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.2) !important;
+    background-color: rgba(255, 255, 255, 0) !important;
   }
 }
 // large Screens
 @media (min-width: 1200px) {
   .allNav {
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.2) !important;
+    background-color: rgba(255, 255, 255, 0) !important;
   }
 }
+
+// $main-color: #09aff4;
+// $main-color-back: #060922;
+// $main-color-font: white;
