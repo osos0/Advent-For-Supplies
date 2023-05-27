@@ -36,7 +36,7 @@ const Header = () => {
               <h5>IT SOLUTIONS</h5>
               <h1>Providing The Best</h1>
               <h1>Services & IT</h1>
-              <h1> SOLUTIONS</h1>
+              <h1 className="blueH1"> SOLUTIONS</h1>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Voluptatibus facere modi possimus dignissimos, aliquam nobis
@@ -50,7 +50,7 @@ const Header = () => {
           </div>
           {/* </div> */}
         </div>
-        <div className="footerbg"></div>
+        <div className="headerbg"></div>
       </div>
     </>
   );

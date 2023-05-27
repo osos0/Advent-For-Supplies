@@ -7,6 +7,7 @@ import Header from "../componantes/Header";
 import Navbar from "../componantes/Navbar";
 
 import Footer from "../componantes/Footer";
+import Services from "../componantes/Services";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         <Navbar />
         {/* <Slider /> */}
         <Header />
+        <Services />
         <About />
         {/* <Customers /> */}
         {/* <FreeLanser /> */}

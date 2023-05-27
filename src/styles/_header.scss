@@ -9,9 +9,10 @@
   border: $test;
   width: 100%;
   height: 700px;
-  .footerbg {
+  .headerbg {
     width: 100%;
     height: 100%;
+    text-align: center;
     // border: 1px solid red;
     position: absolute;
     top: 0;
@@ -21,7 +22,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1 !important;
-    opacity: 0.1;
+    opacity: 0.4;
+  }
+  .blueH1 {
+    color: $main-color;
   }
   // .headerCon {
   //   padding: 10px 5px;
