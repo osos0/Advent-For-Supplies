@@ -11,6 +11,7 @@
   width: 100%;
   border-radius: 8px;
   margin-top: 25px;
+  transition: 400ms ease-in-out;
   a {
     color: $main-color !important;
   }
@@ -28,5 +29,19 @@
     margin: 0 10px;
     border: none;
     padding: 0;
+  }
+}
+.servChild:hover {
+  color: white !important;
+  background-color: $main-color !important;
+  svg {
+    border: 1px solid white;
+    color: white !important;
+  }
+  .secondSvg {
+    border: none !important;
+  }
+  a {
+    color: white !important;
   }
 }

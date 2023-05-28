@@ -60,14 +60,16 @@
         width: 40px;
       }
       .footerFontAwsomeCon {
+        width: 100% !important;
         margin: auto;
         // width: 80%;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         margin-top: 20px;
         svg {
           font-size: 35px;
+          padding: 0 !important;
         }
       }
       .smallConFont {

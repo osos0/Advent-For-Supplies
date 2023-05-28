@@ -1,21 +1,21 @@
-.customersCon {
-  // border: 1px solid red;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  //   align-items: center;
+@use "./Vars" as *;
 
-  .cusChildCon {
-    // border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    img {
-      width: 200;
-      height: 150px;
-      padding: 10px;
-    }
+.customersCon {
+  width: 100%;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $main-color;
+  text-align: center;
+  img {
+    max-width: 80%;
+    height: 90%;
+    border-radius: 40px;
+    padding: 10px;
+  }
+
+  .trustcolor {
+    color: aquamarine;
   }
 }

@@ -9,6 +9,8 @@ import Navbar from "../componantes/Navbar";
 import Footer from "../componantes/Footer";
 import Services from "../componantes/Services";
 import Counters from "../componantes/Counter";
+import Whychooseus from "../componantes/Whychooseus";
+import Customers from "../componantes/Customers";
 
 const Home = () => {
   return (
@@ -19,9 +21,10 @@ const Home = () => {
         <Header />
         <Services />
         <About />
-        {/* <Customers /> */}
+        <Whychooseus />
         {/* <FreeLanser /> */}
         <Counters />
+        <Customers />
         <Footer />
       </div>
     </>

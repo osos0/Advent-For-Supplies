@@ -4,13 +4,30 @@ import { Link } from "react-router-dom";
 import logo11 from "../img/logo_3d.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faSun } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 const Navbar = () => {
-  console.log(`hello`);
+  const [Navbarchange, setNavbarchange] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY >= 400) {
+      setNavbarchange(true);
+    } else {
+      setNavbarchange(false);
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light allNav">
+      <nav
+        className={
+          Navbarchange
+            ? `navbar navbar-expand-lg navbar-light allNavChange`
+            : `navbar navbar-expand-lg navbar-light allNav`
+        }
+      >
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             {/* <img src={logo} alt="logo" className="logostyling" /> */}

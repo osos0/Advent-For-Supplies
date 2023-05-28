@@ -1,5 +1,7 @@
 @use "./Vars" as *;
 
+@use "./Vars" as *;
+
 // .aboutCon {
 //   min-height: 100vh;
 //   display: flex;
@@ -7,7 +9,7 @@
 //   align-items: center;
 // }
 
-.aboutus {
+.WhyChoose {
   padding: 40px 0;
   display: flex;
   justify-content: center;
@@ -19,14 +21,14 @@
     color: $main-color;
     border-bottom: 1px solid $main-color;
   }
-  .leftAbout {
+  .rightWhy {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    .boutChild {
+    .whyChild {
       display: flex;
     }
     svg {
@@ -42,9 +44,16 @@
       padding: 20px 10px;
       border-radius: 5px;
     }
+    .threenum {
+      color: $main-color;
+      font-size: 30px;
+      font-weight: 900;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
   }
 
-  .rightAbout {
+  .leftWhy {
     display: flex;
     justify-content: center;
     align-items: center;
