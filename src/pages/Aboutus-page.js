@@ -1,9 +1,17 @@
 import React from "react";
+import Navbar from "../componantes/Navbar";
+import Footer from "../componantes/Footer";
+import Header from "../componantes/Header";
 
 const AboutusPage = () => {
   return (
     <>
-      <h1 className="aboutCon">About us Page</h1>
+      <div className="bgcolor">
+        <Navbar />
+        <Header />
+
+        <Footer />
+      </div>
     </>
   );
 };

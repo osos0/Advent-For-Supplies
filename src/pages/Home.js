@@ -1,6 +1,6 @@
 import React from "react";
 import About from "../componantes/About";
-// import Slider from "../componantes/Slider";
+import Slider from "../componantes/Slider";
 // import FreeLanser from "../componantes/FreeLanser";
 // import Customers from "../componantes/Customers";
 import Header from "../componantes/Header";
@@ -17,7 +17,6 @@ const Home = () => {
     <>
       <div className="bgcolor">
         <Navbar />
-        {/* <Slider /> */}
         <Header />
         <Services />
         <About />
@@ -25,6 +24,7 @@ const Home = () => {
         {/* <FreeLanser /> */}
         <Counters />
         <Customers />
+        <Slider />
         <Footer />
       </div>
     </>
