@@ -1,0 +1,26 @@
+@use "./Vars" as *;
+
+.NewsAll {
+  padding: 30px 0;
+  .conofNews {
+    border: 2px solid $main-color;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 10px 0;
+    min-height: 200px;
+
+    .newsImgCon {
+      img {
+        border-radius: 15px;
+        max-width: 100%;
+      }
+    }
+    .newspCon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 150px;
+    }
+  }
+}

@@ -67,9 +67,9 @@ const Navbar = () => {
                 <Link
                   className="nav-link licolor"
                   aria-current="page"
-                  to="/news"
+                  to="/brandes"
                 >
-                  News
+                  Brandes
                 </Link>
               </li>
               <li className="nav-item">

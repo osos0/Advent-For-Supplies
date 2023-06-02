@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../componantes/Navbar";
 import Footer from "../componantes/Footer";
+import Customers from "../componantes/Customers";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
@@ -28,7 +29,7 @@ const CustomersPage = () => {
           <img src={flow4} alt="flow1" className="flow4" />
           <img src={flow5} alt="flow1" className="flow5" />
         </section>
-
+        <Customers />
         <Footer />
       </div>
     </>

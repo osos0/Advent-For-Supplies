@@ -9,6 +9,7 @@ import flow2 from "../img/square-dots-orange.png";
 import flow3 from "../img/squareimg.png";
 import flow4 from "../img/twobalone.png";
 import flow5 from "../img/lines.png";
+import News from "../componantes/News";
 
 const NewsPage = () => {
   return (
@@ -28,7 +29,7 @@ const NewsPage = () => {
           <img src={flow4} alt="flow1" className="flow4" />
           <img src={flow5} alt="flow1" className="flow5" />
         </section>
-
+        <News />
         <Footer />
       </div>
     </>

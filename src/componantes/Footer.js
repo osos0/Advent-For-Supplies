@@ -48,19 +48,19 @@ const Footer = () => {
               <div className="col-md-3 col-md-3 col-sm-6 pt-4 rightFooter">
                 <h5>Useful Links</h5>
                 <hr />
-                <a href="#About" className="text-center">
+                <a href="/" className="text-center">
                   Home
                 </a>
-                <a href="#Skils" className="text-center">
+                <a href="/aboutus" className="text-center">
                   About Us
                 </a>
-                <a href="#Contact" className="text-center">
-                  News
+                <a href="/brandes" className="text-center">
+                  Brandes
                 </a>
-                <a href="#Portfolio" className="text-center">
+                <a href="/customers" className="text-center">
                   Customers
                 </a>
-                <a href="#Contact" className="text-center">
+                <a href="/contactus" className="text-center">
                   Contact Us
                 </a>
                 {/* <a href="#freelancer">freelancer</a> */}
