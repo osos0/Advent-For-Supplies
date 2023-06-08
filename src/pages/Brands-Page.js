@@ -9,7 +9,7 @@ import flow2 from "../img/square-dots-orange.png";
 import flow3 from "../img/squareimg.png";
 import flow4 from "../img/twobalone.png";
 import flow5 from "../img/lines.png";
-import News from "../componantes/News";
+import Brands from "../componantes/Brands";
 
 const NewsPage = () => {
   return (
@@ -17,11 +17,11 @@ const NewsPage = () => {
       <div className="bgcolor">
         <Navbar />
         <section className="subMain">
-          <h1>News</h1>
+          <h1>Brands</h1>
           <div className="conOfLinks">
             <FontAwesomeIcon icon={faHome} />
             <Link to={"/"}> HOME /</Link>
-            <Link> NEWS </Link>
+            <Link> Brands </Link>
           </div>
           <img src={flow1} alt="flow1" className="flow1" />
           <img src={flow2} alt="flow1" className="flow2" />
@@ -29,7 +29,7 @@ const NewsPage = () => {
           <img src={flow4} alt="flow1" className="flow4" />
           <img src={flow5} alt="flow1" className="flow5" />
         </section>
-        <News />
+        <Brands />
         <Footer />
       </div>
     </>

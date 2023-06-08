@@ -6,6 +6,42 @@ import ahli from "../img/AlAhly.jpg";
 const Customers = () => {
   return (
     <>
+      <div className="container brands">
+        <h1 className="text-center m-5">customers</h1>
+
+        <div className="row conOfAllCustomers">
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="customersImgCon">
+              <img src={ahli} alt="ahli" />
+            </div>
+            <h2 className="customerspCon">Bank </h2>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="customersImgCon">
+              <img src={ahli} alt="ahli" />
+            </div>
+            <h2 className="customerspCon">Bank </h2>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="customersImgCon">
+              <img src={ahli} alt="ahli" />
+            </div>
+            <h2 className="customerspCon">Bank </h2>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="customersImgCon">
+              <img src={ahli} alt="ahli" />
+            </div>
+            <h2 className="customerspCon">Bank </h2>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="customersImgCon">
+              <img src={ahli} alt="ahli" />
+            </div>
+            <h2 className="customerspCon">Bank </h2>
+          </div>
+        </div>
+      </div>
       <div className="customersCon">
         <div className="container">
           <h2 className="trustcolor">

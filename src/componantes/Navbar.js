@@ -78,7 +78,7 @@ const Navbar = () => {
                   aria-current="page"
                   to="/customers"
                 >
-                  customers
+                  Customers
                 </Link>
               </li>
               <li className="nav-item">

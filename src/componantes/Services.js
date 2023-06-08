@@ -13,7 +13,7 @@ const Services = () => {
   return (
     <>
       <div id="SERVICES">
-        <div className="container">
+        <div className="container brandsNews">
           <h5>. SERVICES .</h5>
           <h1>Services We Offer</h1>
           <p>
@@ -60,7 +60,6 @@ const Services = () => {
                   Read More
                   <FontAwesomeIcon icon={faArrowRight} className="secondSvg" />
                 </Link>
-                <img src={web} alt="web" className="servChildImg" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12 ">
@@ -102,6 +101,7 @@ const Services = () => {
                   Read More
                   <FontAwesomeIcon icon={faArrowRight} className="secondSvg" />
                 </Link>
+                <img src={web} alt="web" className="servChildImg" />
               </div>
             </div>
           </div>

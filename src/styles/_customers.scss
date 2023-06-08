@@ -1,5 +1,20 @@
 @use "./Vars" as *;
 
+.conOfAllCustomers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .customersImgCon {
+    img {
+      max-width: 100%;
+      border-radius: 25px;
+    }
+  }
+  .customerspCon {
+    text-align: center;
+  }
+}
+
 .customersCon {
   width: 100%;
   padding: 40px 0;
