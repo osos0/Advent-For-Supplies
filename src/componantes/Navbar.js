@@ -9,25 +9,26 @@ import { useState } from "react";
 const Navbar = () => {
   const [Navbarchange, setNavbarchange] = useState(false);
 
-  const handleScroll = () => {
-    if (window.scrollY >= 400) {
-      setNavbarchange(true);
-    } else {
-      setNavbarchange(false);
-    }
-  };
+  // const handleScroll = () => {
+  //   if (window.scrollY >= 400) {
+  //     setNavbarchange(true);
+  //   } else {
+  //     setNavbarchange(false);
+  //   }
+  // };
 
-  window.addEventListener("scroll", handleScroll);
+  // window.addEventListener("scroll", handleScroll);
 
   return (
     <>
-      <nav
+      {/* <nav
         className={
           Navbarchange
             ? `navbar navbar-expand-lg navbar-light allNavChange`
             : `navbar navbar-expand-lg navbar-light allNav`
         }
-      >
+      > */}
+      <nav className={`navbar navbar-expand-lg navbar-light allNav`}>
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             {/* <img src={logo} alt="logo" className="logostyling" /> */}

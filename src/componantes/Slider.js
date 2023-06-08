@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../img/01.jpg";
-import img2 from "../img/02.jpg";
-import img3 from "../img/03.jpg";
+import img1 from "../img/Fortinet.png";
+import img2 from "../img/dell.png";
+import img3 from "../img/lenovo.png";
 
 const Slider = () => {
   return (
@@ -17,7 +17,7 @@ const Slider = () => {
           >
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <h5>Lenovo</h5>
+                <h5>Fortinet</h5>
                 <img src={img1} className=" " alt="..." />
 
                 <p>
@@ -26,7 +26,7 @@ const Slider = () => {
                 </p>
               </div>
               <div className="carousel-item">
-                <h5>Hp</h5>
+                <h5>Dell</h5>
                 <img src={img2} className=" " alt="..." />
                 <p>
                   lorem ipsum dolor sit amet consecltetur adipisicing elit.
@@ -34,7 +34,7 @@ const Slider = () => {
                 </p>
               </div>
               <div className="carousel-item">
-                <h5>Samsung</h5>
+                <h5>Lenovo</h5>
                 <img src={img3} className=" " alt="..." />
                 <p>
                   lorem ipsum dolor sit amet consecltetur adipisicing elit.

@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../componantes/Navbar";
+import Slider from "../componantes/Slider";
 import Footer from "../componantes/Footer";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -30,6 +31,7 @@ const NewsPage = () => {
           <img src={flow5} alt="flow1" className="flow5" />
         </section>
         <Brands />
+        <Slider />
         <Footer />
       </div>
     </>

@@ -21,7 +21,7 @@ const Services = () => {
             Elit Omnis Id Atque Dignissimos Repellat Quae Ullam.
           </p>
           <div className="row">
-            <div className="col-lg-4 col-md-6 col-sm-12 ">
+            {/* <div className="col-lg-4 col-md-6 col-sm-12 ">
               <div className="servChild">
                 <FontAwesomeIcon icon={faComputer} /> <h2>It Supplies</h2>
                 <p>
@@ -61,13 +61,15 @@ const Services = () => {
                   <FontAwesomeIcon icon={faArrowRight} className="secondSvg" />
                 </Link>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-4 col-md-6 col-sm-12 ">
               <div className="servChild">
-                <FontAwesomeIcon icon={faComputer} /> <h2>It Supplies</h2>
+                <FontAwesomeIcon icon={faComputer} />{" "}
+                <h2>Hardware solutions </h2>
                 <p>
-                  Lorem ipsum dolor sit amet consecltetur adipisicing elit.
-                  Omnis tempore perfe rendis explicabo.
+                  Revolutionizing Technology Solutions - We specialize in
+                  delivering innovative and customized technology solutions to
+                  empower businesses and drive digital transformation.
                 </p>
                 <Link>
                   Read More
@@ -78,7 +80,7 @@ const Services = () => {
             <div className="col-lg-4 col-md-6 col-sm-12 ">
               <div className="servChild">
                 <FontAwesomeIcon icon={faCoins} />
-                <h2>Financial Support</h2>
+                <h2>Network solutions</h2>
                 <p>
                   Lorem ipsum dolor sit amet consecltetur adipisicing elit.
                   Omnis tempore perfe rendis explicabo.
