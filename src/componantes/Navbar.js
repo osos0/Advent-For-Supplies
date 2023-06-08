@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 import logo11 from "../img/logo_3d.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faSun } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
+// import { useState } from "react";
 
 const Navbar = () => {
-  const [Navbarchange, setNavbarchange] = useState(false);
+  // const [Navbarchange, setNavbarchange] = useState(false);
 
   // const handleScroll = () => {
   //   if (window.scrollY >= 400) {
