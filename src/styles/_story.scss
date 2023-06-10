@@ -10,4 +10,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  .conOfvission {
+    img {
+      max-width: 100%;
+    }
+  }
 }
