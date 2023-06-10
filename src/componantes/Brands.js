@@ -10,6 +10,10 @@ import epson from "../img/epson.png";
 import aruba from "../img/aruba.png";
 import microsoft from "../img/microsoft.png";
 import fortnite from "../img/Fortinet.png";
+import samsung from "../img/Samsung.png";
+import tplink from "../img/Tp.png";
+import hpe from "../img/HPE_BIG.D.png";
+import Dlink from "../img/Dlink.png";
 
 const Brands = () => {
   return (
@@ -66,6 +70,26 @@ const Brands = () => {
           <div className="col-lg-3 col-md-4 col-sm-6 ">
             <div className="brandsImgCon">
               <img src={fortnite} alt="dell" />
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="brandsImgCon">
+              <img src={samsung} alt="dell" />
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="brandsImgCon">
+              <img src={Dlink} alt="dell" />
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="brandsImgCon">
+              <img src={hpe} alt="dell" />
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="brandsImgCon">
+              <img src={tplink} alt="dell" />
             </div>
           </div>
           <div className="col-lg-3 col-md-4 col-sm-6 ">
