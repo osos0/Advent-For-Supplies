@@ -14,7 +14,7 @@ const Story = () => {
           <div className="col-lg-12 col-md-12 col-sm-12">
             <h1>About Us</h1>
             <p>
-              We, at Click ITS, believe, beyond any doubt, that our success,
+              We, at adventaeg ITS, believe, beyond any doubt, that our success,
               growth and reputation depend upon the commitment and capabilities
               of our employees as well as our leaders at every level. Having one
               shared vision and one shared purpose binds our efforts, challenges
@@ -26,19 +26,19 @@ const Story = () => {
               behavior, principles, that guide our efforts as well as guide our
               individual decisions, both on a daily level as well as on a
               strategic level, that are congruent with and supportive to the
-              company's vision and objectives. Click ITS is growing in size and
-              thus in responsibility towards all stakeholders including its
+              company's vision and objectives. adventaeg ITS is growing in size
+              and thus in responsibility towards all stakeholders including its
               employees, customers, suppliers, shareholders as well as society
               and environment. It is becoming of crucial importance to act with
               the energy, coherence and spirit of highly ethical top performing
-              teams.We, at Click ITS are determined to be an exemplary company
-              performing with full power fueled by committed members who believe
-              that Click ITS is not only a place to work in but rather a place
-              where they can fulfill their ambitions and live like a big caring
-              family. It is our intention and only choice to achieve sustained
-              success, through leadership, only to savor a better status to all
-              stakeholders including, as a priority, the communities we work
-              within.
+              teams.We, at adventaeg ITS are determined to be an exemplary
+              company performing with full power fueled by committed members who
+              believe that adventaeg ITS is not only a place to work in but
+              rather a place where they can fulfill their ambitions and live
+              like a big caring family. It is our intention and only choice to
+              achieve sustained success, through leadership, only to savor a
+              better status to all stakeholders including, as a priority, the
+              communities we work within.
               <br />
               To achieve that, we have together chosen to act and behave based
               on the following:
@@ -72,8 +72,8 @@ const Story = () => {
                 A word about leadership as we understand and as we are
                 determined to achieve: Leadership means becoming the yardstick
                 for others. This applies both to leaders who can inspire teams
-                and to companies that set standards on the market.We, at Click
-                ITS, aspire to be both.
+                and to companies that set standards on the market.We, at
+                adventaeg ITS, aspire to be both.
                 <br />
                 And by market leadership we visualize our company and its
                 members as having the top rank in:
@@ -113,7 +113,9 @@ const Story = () => {
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="row">
-              <h3>Commitment (The power of believing we can)</h3>
+              <h3>
+                Commitment <span>The power of believing we can.</span>
+              </h3>
 
               <div className="col-lg-9 col-md-9 col-sm-9">
                 We are committed to exert every effort possible, with integrity
@@ -165,7 +167,9 @@ const Story = () => {
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="row">
-              <h3>Teamwork (The power of together)</h3>
+              <h3>
+                Teamwork <span>The power of together.</span>
+              </h3>
 
               <div className="col-lg-9 col-md-9 col-sm-9">
                 The only possible road to sustained success and sustained
@@ -224,7 +228,9 @@ const Story = () => {
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="row">
-              <h3>Customer centricity and value( The power of trust)</h3>
+              <h3>
+                Customer centricity and value <span>The power of trust.</span>
+              </h3>
 
               <div className="col-lg-9 col-md-9 col-sm-9">
                 Without customers, we can’t work.Without satisfied customers we
@@ -271,7 +277,9 @@ const Story = () => {
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="row">
-              <h3>Employee care and welfare (The power of family)</h3>
+              <h3>
+                Employee care and welfare <span>The power of family.</span>
+              </h3>
 
               <div className="col-lg-9 col-md-9 col-sm-9">
                 Our employees are our core competence and our most important

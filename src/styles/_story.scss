@@ -10,6 +10,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  h1 {
+    color: $main-color;
+  }
+  h3 {
+    color: $main-color;
+  }
+  span {
+    color: orangered;
+    font-size: 25px;
+  }
 
   .conOfvission {
     img {
