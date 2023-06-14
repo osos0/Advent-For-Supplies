@@ -9,19 +9,19 @@ import flow2 from "../img/square-dots-orange.png";
 import flow3 from "../img/squareimg.png";
 import flow4 from "../img/twobalone.png";
 import flow5 from "../img/lines.png";
-import Map from "../componantes/Map";
+import Storyofnetworksolutions from "../componantes/Storyofnetworksolutions";
 
-const ContactusPage = () => {
+const NetworkSoltionPage = () => {
   return (
     <>
       <div className="bgcolor">
         <Navbar />
         <section className="subMain">
-          <h1>Contact Us</h1>
+          <h1>Network Solutions</h1>
           <div className="conOfLinks">
             <FontAwesomeIcon icon={faHome} />
             <Link to={"/"}> HOME /</Link>
-            <Link> CONTACT US </Link>
+            <Link> Network Solutions </Link>
           </div>
           <img src={flow1} alt="flow1" className="flow1" />
           <img src={flow2} alt="flow1" className="flow2" />
@@ -29,11 +29,12 @@ const ContactusPage = () => {
           <img src={flow4} alt="flow1" className="flow4" />
           <img src={flow5} alt="flow1" className="flow5" />
         </section>
-        <Map />
+        <Storyofnetworksolutions />
+
         <Footer />
       </div>
     </>
   );
 };
 
-export default ContactusPage;
+export default NetworkSoltionPage;

@@ -21,47 +21,6 @@ const Services = () => {
             Elit Omnis Id Atque Dignissimos Repellat Quae Ullam.
           </p>
           <div className="row">
-            {/* <div className="col-lg-4 col-md-6 col-sm-12 ">
-              <div className="servChild">
-                <FontAwesomeIcon icon={faComputer} /> <h2>It Supplies</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consecltetur adipisicing elit.
-                  Omnis tempore perfe rendis explicabo.
-                </p>
-                <Link>
-                  Read More
-                  <FontAwesomeIcon icon={faArrowRight} className="secondSvg" />
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12 ">
-              <div className="servChild">
-                <FontAwesomeIcon icon={faCoins} />
-                <h2>Financial Support</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consecltetur adipisicing elit.
-                  Omnis tempore perfe rendis explicabo.
-                </p>
-                <Link>
-                  Read More
-                  <FontAwesomeIcon icon={faArrowRight} className="secondSvg" />
-                </Link>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 col-sm-12 ">
-              <div className="servChild">
-                <FontAwesomeIcon icon={faCode} />
-                <h2>Web Development</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consecltetur adipisicing elit.
-                  Omnis tempore perfe rendis explicabo.
-                </p>
-                <Link>
-                  Read More
-                  <FontAwesomeIcon icon={faArrowRight} className="secondSvg" />
-                </Link>
-              </div>
-            </div> */}
             <div className="col-lg-4 col-md-6 col-sm-12 ">
               <div className="servChild">
                 <FontAwesomeIcon icon={faComputer} />{" "}
@@ -85,7 +44,7 @@ const Services = () => {
                   Lorem ipsum dolor sit amet consecltetur adipisicing elit.
                   Omnis tempore perfe rendis explicabo.
                 </p>
-                <Link>
+                <Link to={`/networksolutions`}>
                   Read More
                   <FontAwesomeIcon icon={faArrowRight} className="secondSvg" />
                 </Link>

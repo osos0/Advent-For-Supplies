@@ -1,0 +1,12 @@
+@use "./Vars" as *;
+
+h3,
+h4 {
+  color: $main-color;
+}
+
+.conOfnetworkimg {
+  img {
+    max-width: 100%;
+  }
+}

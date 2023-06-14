@@ -42,6 +42,22 @@ a {
   width: 60px;
 }
 
+//services btn
+.servicesBtn {
+  color: white;
+  border: 1px solid transparent;
+}
+.dropdown-menu {
+  background-color: rgba($main-color-back, 20%);
+  border: 1px solid transparent;
+  .dropdown-item {
+    background-color: transparent;
+  }
+  .dropdown-item:hover {
+    background-color: rgba($main-color-back, 40%);
+  }
+}
+
 // Mobile Screens
 @media (max-width: 767px) {
   .allNav {
