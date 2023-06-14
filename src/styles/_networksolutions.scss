@@ -1,12 +1,18 @@
 @use "./Vars" as *;
 
-h3,
-h4 {
-  color: $main-color;
-}
+.conOfStoryofnetworksolutions {
+  h3 {
+    color: $main-color;
+    margin: 20px auto;
+    text-align: center;
+  }
+  h4 {
+    color: $main-color;
+  }
 
-.conOfnetworkimg {
-  img {
-    max-width: 100%;
+  .conOfnetworkimg {
+    img {
+      max-width: 100%;
+    }
   }
 }

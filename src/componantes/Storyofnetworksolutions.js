@@ -1,14 +1,23 @@
 import React from "react";
 import networking from "../img/networking.jpg";
 import networking2 from "../img/Neteworking2.jpg";
+import click1 from "../img/click1.jpg";
+import click2 from "../img/click2.jpg";
+import click3 from "../img/click3.png";
+import click4 from "../img/click4.gif";
+import click5 from "../img/click5.jpg";
+import click6 from "../img/click6.png";
+import click7 from "../img/click7.jpg";
+import click8 from "../img/click8.jpg";
+import click9 from "../img/click9.png";
 
 const Storyofnetworksolutions = () => {
   return (
     <>
-      <div className="container">
+      <div className="container conOfStoryofnetworksolutions">
         <h3>DATA & COMMUNICATION NETWORK SOLUTION</h3>
         <div className="row ">
-          {/* <div className="col-lg-12 col-md-12 col-sm-12">
+          <div className="col-lg-12 col-md-12 col-sm-12">
             <p>
               We hope to add value to you by advising you on the best pre-sales
               team to help you align to your business requirments.
@@ -24,9 +33,14 @@ const Storyofnetworksolutions = () => {
             </p>
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12">
+            <h3>Virtualization</h3>
             <div className="row ">
+              <div className="col-lg-3 col-md-3 col-sm-12">
+                <div className="conOfnetworkimg">
+                  <img src={click1} alt="mission" />
+                </div>
+              </div>
               <div className="col-lg-9 col-md-9 col-sm-12">
-                <h4>Virtualization</h4>
                 <p>
                   Virtualization refers to the creation of a virtual resource
                   such as a server, desktop, operating system, file, storage or
@@ -38,14 +52,208 @@ const Storyofnetworksolutions = () => {
                   <br />
                 </p>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-12">
+            </div>
+          </div>
+          <div className="col-lg-12 col-md-12 col-sm-12">
+            <h3>Security solutions</h3>
+            <div className="row ">
+              <div className="col-lg-9 col-md-9 col-sm-9">
+                <p>
+                  Firewall:
+                  <br />
+                  A firewall is software/hardware used to maintain the security
+                  of a private network. Firewalls block unauthorized access to
+                  or from private networks and are often employed to prevent
+                  unauthorized Web users or illicit software from gaining access
+                  to private networks connected to the Internet. A firewall may
+                  be implemented using hardware, software, or a combination of
+                  both.
+                  <br />
+                  A firewall is recognized as the first line of defense in
+                  securing sensitive information. For better safety, the data
+                  can be encrypted.
+                  <br />
+                  Today’s security threats to commerce and industry highlights
+                  the need for more comprehensive and integrated security
+                  solutions. We provide the best security solution available
+                  including...
+                </p>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3">
                 <div className="conOfnetworkimg">
-                  <img src={networking} alt="mission" />
+                  <img src={click2} alt="mission" />
                 </div>
               </div>
-
             </div>
-          </div> */}
+          </div>
+          <div className="col-lg-12 col-md-12 col-sm-12">
+            <h3>Blade Server solution</h3>
+            <div className="row ">
+              <div className="col-lg-3 col-md-3 col-sm-3">
+                <div className="conOfnetworkimg">
+                  <img src={click3} alt="mission" />
+                </div>
+              </div>
+              <div className="col-lg-9 col-md-9 col-sm-9">
+                <p>
+                  A blade server is a compact, self-contained server that
+                  consists of core processing components that fit into an
+                  enclosure with other blade servers.
+                  <br />
+                  A single blade may consist of hot-plug hard-drives, memory,
+                  network cards, input/output cards and integrated lights-out
+                  remote management. The modular design of the blade server
+                  helps to optimize server performance and reduce energy costs.
+                  <br />
+                  Blade servers are designed to overcome the space and energy
+                  restrictions of a typical data center...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12 col-md-12 col-sm-12">
+            <h3>Storage Solutions</h3>
+            <div className="row ">
+              <div className="col-lg-9 col-md-9 col-sm-9">
+                <p>
+                  Storage area network (SAN) Storage:
+                  <br />
+                  Storage area network (SAN) is a secure high-speed data
+                  transfer network that provides access to consolidated
+                  block-level storage. An SAN makes a network of storage devices
+                  accessible to multiple servers. SAN devices appear to servers
+                  as attached drives, eliminating traditional network...
+                  <br />
+                </p>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3">
+                <div className="conOfnetworkimg">
+                  <img src={click4} alt="mission" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12 col-md-12 col-sm-12">
+            <h3>Network solutions</h3>
+            <div className="row ">
+              <div className="col-lg-3 col-md-3 col-sm-3">
+                <div className="conOfnetworkimg">
+                  <img src={click5} alt="mission" />
+                </div>
+              </div>
+              <div className="col-lg-9 col-md-9 col-sm-9">
+                <p>
+                  Network infrastructure refers to the hardware and software
+                  resources of an entire network that enable network
+                  connectivity, communication, operations and management of an
+                  enterprise network. Network infrastructure provides the
+                  communication path and services between users, processes,
+                  applications, services and external networks/the Internet.
+                  <br />
+                  Our highly experienced and certified engineers and consultants
+                  are qualified to handle all aspects of enterprise network
+                  projects, from initial specification and design to
+                  implementation and...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12 col-md-12 col-sm-12">
+            <h3>VoIP solution</h3>
+            <div className="row ">
+              <div className="col-lg-9 col-md-9 col-sm-9">
+                <p>
+                  Voice over Internet Protocol (VoIP) is a technology used for
+                  delivering different kinds of data from a source to a
+                  destination using IP (Internet Protocol). The data may be in
+                  many forms, including files, voice communication, pictures,
+                  fax or multimedia messages. VoIP is most often used for
+                  telephone calls, which are almost free of charge
+                  <br />
+                  This technology provides fast and high quality voice
+                  communication all over the world.
+                  <br />
+                  We offer a full line of advanced VoIP products and services,
+                  and we will make every effort to ensure that your equipment
+                  works properly and meets your specific requirements.
+                </p>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3">
+                <div className="conOfnetworkimg">
+                  <img src={click6} alt="mission" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12 col-md-12 col-sm-12">
+            <h3>Disaster recovery solution</h3>
+            <div className="row ">
+              <div className="col-lg-3 col-md-3 col-sm-3">
+                <div className="conOfnetworkimg">
+                  <img src={click7} alt="mission" />
+                </div>
+              </div>
+              <div className="col-lg-9 col-md-9 col-sm-9">
+                <p>
+                  One simple question to ask yourself to determine whether your
+                  business needs a backup and disaster recovery plan:
+                  <br />
+                  “Can my business continue to function without my critical
+                  data, applications and operations?” No is the only answer.
+                  <br />
+                  Let’s face it, at some point your data will be at risk. It
+                  could be a machine error, a human error, a virus or even a
+                  natural...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12 col-md-12 col-sm-12">
+            <h3>Printing solution</h3>
+            <div className="row ">
+              <div className="col-lg-9 col-md-9 col-sm-9">
+                <p>
+                  The printing solution that we offer is the formula for finance
+                  and IT managers to reduce costs and simplify document workflow
+                  is simple, consolidate, standardize and control your printing
+                  operations. This let the employees to print safely anytime,
+                  anywhere and at any printer.
+                  <br />
+                  With comprehensive print management tools that deliver smart,
+                  secure printing deployments.
+                </p>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-3">
+                <div className="conOfnetworkimg">
+                  <img src={click8} alt="mission" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-12 col-md-12 col-sm-12">
+            <h3>Internet solutions</h3>
+            <div className="row ">
+              <div className="col-lg-3 col-md-3 col-sm-3">
+                <div className="conOfnetworkimg">
+                  <img src={click9} alt="mission" />
+                </div>
+              </div>
+              <div className="col-lg-9 col-md-9 col-sm-9">
+                <p>
+                  Website design:
+                  <br />
+                  - Professional design including photos and copy created
+                  specifically for your business
+                  <br />
+                  - Monthly website updates handled for you with just a phone
+                  call to your web expert
+                  <br />
+                  - Tracking tools to view your online success
+                  <br />- Mobile website setup for smartphone...
+                </p>
+              </div>
+            </div>
+          </div>
 
           {/* not click page */}
           <div className="col-lg-12 col-md-12 col-sm-12">

@@ -14,31 +14,31 @@ const Story = () => {
           <div className="col-lg-12 col-md-12 col-sm-12">
             <h1>About Us</h1>
             <p>
-              We, at adventaeg ITS, believe, beyond any doubt, that our success,
-              growth and reputation depend upon the commitment and capabilities
-              of our employees as well as our leaders at every level. Having one
-              shared vision and one shared purpose binds our efforts, challenges
-              our capabilities and provides us with sharp focus and
-              understanding of what we aspire to achieve on a group level.
+              We, at ADVENT, believe, beyond any doubt, that our success, growth
+              and reputation depend upon the commitment and capabilities of our
+              employees as well as our leaders at every level. Having one shared
+              vision and one shared purpose binds our efforts, challenges our
+              capabilities and provides us with sharp focus and understanding of
+              what we aspire to achieve on a group level.
               <br />
               Yet, focus alone is not enough. It is the means as well as the
               end. Our sharp focus needs to be crowned with standards of
               behavior, principles, that guide our efforts as well as guide our
               individual decisions, both on a daily level as well as on a
               strategic level, that are congruent with and supportive to the
-              company's vision and objectives. adventaeg ITS is growing in size
-              and thus in responsibility towards all stakeholders including its
+              company's vision and objectives. ADVENT is growing in size and
+              thus in responsibility towards all stakeholders including its
               employees, customers, suppliers, shareholders as well as society
               and environment. It is becoming of crucial importance to act with
               the energy, coherence and spirit of highly ethical top performing
-              teams.We, at adventaeg ITS are determined to be an exemplary
-              company performing with full power fueled by committed members who
-              believe that adventaeg ITS is not only a place to work in but
-              rather a place where they can fulfill their ambitions and live
-              like a big caring family. It is our intention and only choice to
-              achieve sustained success, through leadership, only to savor a
-              better status to all stakeholders including, as a priority, the
-              communities we work within.
+              teams.We, at ADVENT are determined to be an exemplary company
+              performing with full power fueled by committed members who believe
+              that ADVENT is not only a place to work in but rather a place
+              where they can fulfill their ambitions and live like a big caring
+              family. It is our intention and only choice to achieve sustained
+              success, through leadership, only to savor a better status to all
+              stakeholders including, as a priority, the communities we work
+              within.
               <br />
               To achieve that, we have together chosen to act and behave based
               on the following:
@@ -72,8 +72,8 @@ const Story = () => {
                 A word about leadership as we understand and as we are
                 determined to achieve: Leadership means becoming the yardstick
                 for others. This applies both to leaders who can inspire teams
-                and to companies that set standards on the market.We, at
-                adventaeg ITS, aspire to be both.
+                and to companies that set standards on the market.We, at ADVENT,
+                aspire to be both.
                 <br />
                 And by market leadership we visualize our company and its
                 members as having the top rank in:
