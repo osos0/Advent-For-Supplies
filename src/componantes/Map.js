@@ -8,11 +8,13 @@ function Map() {
 
   if (!isLoaded) return <div>Loading .... </div>;
   return (
-    <GoogleMap
-      zoom={10}
-      center={{ lat: 30.0444, lng: 31.2357 }}
-      mapContainerClassName="mapCon"
-    ></GoogleMap>
+    <>
+      <GoogleMap
+        zoom={10}
+        center={{ lat: 30.0444, lng: 31.2357 }}
+        mapContainerClassName="mapCon"
+      ></GoogleMap>
+    </>
   );
 }
 

@@ -10,6 +10,7 @@ import flow3 from "../img/squareimg.png";
 import flow4 from "../img/twobalone.png";
 import flow5 from "../img/lines.png";
 import Map from "../componantes/Map";
+import Contact from "../componantes/Contact";
 
 const ContactusPage = () => {
   return (
@@ -30,6 +31,7 @@ const ContactusPage = () => {
           <img src={flow5} alt="flow1" className="flow5" />
         </section>
         <Map />
+        <Contact />
         <Footer />
       </div>
     </>

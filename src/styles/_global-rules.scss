@@ -49,20 +49,20 @@ input {
   // border-radius: 10px;
   display: inline;
   // margin: auto 5px;
-  background-color: $blue;
-  // min-width: 90%;
+  background-color: transparent;
+  min-width: 35%;
   color: $main-color-font;
 }
 
 textarea {
   outline: none;
-  border: 1px solid $aquamarine;
+  border: 1px solid $main-color;
   padding: 5px;
-  border-radius: 10px;
   margin: auto 5px;
-  background-color: $blue;
+  background-color: transparent;
   min-width: 90%;
-  color: $aquamarine;
+  color: $main-color;
+  margin: 10px 0px;
 }
 
 button {
