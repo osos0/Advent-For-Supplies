@@ -26,10 +26,10 @@ const Contact = () => {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="row">
-              <div className="col-lg-3 col-md-3 col-sm-6 foCon">
+              <div className="col-lg-3 col-md-3 col-sm-3 foCon">
                 <FontAwesomeIcon icon={faMapMarker} />
               </div>
-              <div className="col-lg-9 col-md-9 col-sm-6">
+              <div className="col-lg-9 col-md-9 col-sm-9">
                 <h3>ADVENT</h3>
                 <p>58 (A) El-Zaytoun Station Street Cairo Egypt</p>
               </div>
@@ -37,10 +37,10 @@ const Contact = () => {
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="row">
-              <div className="col-lg-3 col-md-3 col-sm-6 foCon">
+              <div className="col-lg-3 col-md-3 col-sm-3 foCon">
                 <FontAwesomeIcon icon={faPhone} />
               </div>
-              <div className="col-lg-9 col-md-9 col-sm-6">
+              <div className="col-lg-9 col-md-9 col-sm-9">
                 <h3>Phone</h3>
                 <p>+20 01210008710</p>
               </div>
@@ -48,10 +48,10 @@ const Contact = () => {
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="row">
-              <div className="col-lg-3 col-md-3 col-sm-6 foCon">
+              <div className="col-lg-3 col-md-3 col-sm-3 foCon">
                 <FontAwesomeIcon icon={faWhatsapp} />
               </div>
-              <div className="col-lg-9 col-md-9 col-sm-6">
+              <div className="col-lg-9 col-md-9 col-sm-9">
                 <h3>whatsapp</h3>
                 <p>+20 01210008710</p>
               </div>
@@ -59,10 +59,10 @@ const Contact = () => {
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="row">
-              <div className="col-lg-3 col-md-3 col-sm-6 foCon">
+              <div className="col-lg-3 col-md-3 col-sm-3 foCon">
                 <FontAwesomeIcon icon={faEnvelope} />
               </div>
-              <div className="col-lg-9 col-md-9 col-sm-6">
+              <div className="col-lg-9 col-md-9 col-sm-9">
                 <h3>Email</h3>
                 <p>info@adventaeg.com</p>
               </div>
@@ -70,10 +70,10 @@ const Contact = () => {
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="row">
-              <div className="col-lg-3 col-md-3 col-sm-6 foCon">
+              <div className="col-lg-3 col-md-3 col-sm-3 foCon">
                 <FontAwesomeIcon icon={faLinkedin} />
               </div>
-              <div className="col-lg-9 col-md-9 col-sm-6">
+              <div className="col-lg-9 col-md-9 col-sm-9">
                 <h3>Linkedin</h3>
                 <p>0000</p>
               </div>
@@ -81,10 +81,10 @@ const Contact = () => {
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="row">
-              <div className="col-lg-3 col-md-3 col-sm-6 foCon">
+              <div className="col-lg-3 col-md-3 col-sm-3 foCon">
                 <FontAwesomeIcon icon={faFacebook} />
               </div>
-              <div className="col-lg-9 col-md-9 col-sm-6">
+              <div className="col-lg-9 col-md-9 col-sm-9">
                 <h3>Facebook</h3>
                 <p>0000</p>
               </div>
@@ -145,6 +145,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
+
           {/* or contact */}
           <div className="col-lg-12 col-md-12 col-sm-12 orContactCon">
             <div className="row">
