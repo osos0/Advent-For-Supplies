@@ -14,6 +14,13 @@ import samsung from "../img/Samsung.png";
 import tplink from "../img/Tp.png";
 import hpe from "../img/HPE_BIG.D.png";
 import Dlink from "../img/Dlink.png";
+import twobtech from "../img/2b.png";
+import fourtech from "../img/4tech.png";
+import brother from "../img/Brother.png";
+import Crucial from "../img/Crucial.png";
+import Kingston from "../img/Kingston.png";
+import Seagate from "../img/Seagate.png";
+import Western from "../img/Western.png";
 
 const Brands = () => {
   return (
@@ -85,6 +92,42 @@ const Brands = () => {
           <div className="col-lg-3 col-md-4 col-sm-6 ">
             <div className="brandsImgCon">
               <img src={hpe} alt="dell" />
+            </div>
+          </div>
+
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="brandsImgCon">
+              <img src={twobtech} alt="dell" />
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="brandsImgCon">
+              <img src={fourtech} alt="dell" />
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="brandsImgCon">
+              <img src={brother} alt="dell" />
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="brandsImgCon">
+              <img src={Crucial} alt="dell" />
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="brandsImgCon">
+              <img src={Kingston} alt="dell" />
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="brandsImgCon">
+              <img src={Seagate} alt="dell" />
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-sm-6 ">
+            <div className="brandsImgCon">
+              <img src={Western} alt="dell" />
             </div>
           </div>
           <div className="col-lg-3 col-md-4 col-sm-6 ">

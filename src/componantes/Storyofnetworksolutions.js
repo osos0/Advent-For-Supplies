@@ -6,10 +6,10 @@ import click2 from "../img/click2.jpg";
 import click3 from "../img/click3.png";
 import click4 from "../img/click4.gif";
 import click5 from "../img/click5.jpg";
-import click6 from "../img/click6.png";
-import click7 from "../img/click7.jpg";
-import click8 from "../img/click8.jpg";
-import click9 from "../img/click9.png";
+// import click6 from "../img/click6.png";
+// import click7 from "../img/click7.jpg";
+// import click8 from "../img/click8.jpg";
+// import click9 from "../img/click9.png";
 
 const Storyofnetworksolutions = () => {
   return (
@@ -158,7 +158,7 @@ const Storyofnetworksolutions = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-12 col-md-12 col-sm-12">
+          {/* <div className="col-lg-12 col-md-12 col-sm-12">
             <h3>VoIP solution</h3>
             <div className="row ">
               <div className="col-lg-9 col-md-9 col-sm-9">
@@ -184,8 +184,8 @@ const Storyofnetworksolutions = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-12 col-md-12 col-sm-12">
+          </div> */}
+          {/* <div className="col-lg-12 col-md-12 col-sm-12">
             <h3>Disaster recovery solution</h3>
             <div className="row ">
               <div className="col-lg-3 col-md-3 col-sm-3">
@@ -207,8 +207,8 @@ const Storyofnetworksolutions = () => {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="col-lg-12 col-md-12 col-sm-12">
+          </div> */}
+          {/* <div className="col-lg-12 col-md-12 col-sm-12">
             <h3>Printing solution</h3>
             <div className="row ">
               <div className="col-lg-9 col-md-9 col-sm-9">
@@ -229,8 +229,8 @@ const Storyofnetworksolutions = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-12 col-md-12 col-sm-12">
+          </div> */}
+          {/* <div className="col-lg-12 col-md-12 col-sm-12">
             <h3>Internet solutions</h3>
             <div className="row ">
               <div className="col-lg-3 col-md-3 col-sm-3">
@@ -253,7 +253,7 @@ const Storyofnetworksolutions = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* not click page */}
           <div className="col-lg-12 col-md-12 col-sm-12">
@@ -327,7 +327,6 @@ const Storyofnetworksolutions = () => {
               hardware through virtual networking.
             </p>
           </div>
-
           <div className="col-lg-12 col-md-12 col-sm-12">
             <div className="row ">
               <div className="col-lg-6 col-md-6 col-sm-12">
@@ -349,8 +348,7 @@ const Storyofnetworksolutions = () => {
               </div>
             </div>
           </div>
-
-          <div className="col-lg-12 col-md-12 col-sm-12">
+          {/* <div className="col-lg-12 col-md-12 col-sm-12">
             <h4>Microwave</h4>
             <p>
               Microwaves are widely used for point-to-point communications
@@ -388,7 +386,7 @@ const Storyofnetworksolutions = () => {
               connectivity, anytime, anywhere and benefit from network analytics
               for a better understanding of your clients.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

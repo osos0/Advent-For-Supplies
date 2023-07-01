@@ -8,7 +8,7 @@ const Slider = () => {
     <>
       <div className="sliderBack">
         <h5>Brands</h5>
-        <h1>0000000 00000 00000000</h1>
+        <h1>Our company specializes</h1>
         <div className="sliderFrame">
           <div
             id="carouselExampleControls"

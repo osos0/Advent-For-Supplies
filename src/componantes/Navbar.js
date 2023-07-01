@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import logo from "../img/Advent_Logo.png";
 import logo11 from "../img/logo_3d.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSun } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faSun } from "@fortawesome/free-solid-svg-icons";
 // import  faSearch from "@fortawesome/free-solid-svg-icons";
 // import { useState } from "react";
 
@@ -36,7 +36,7 @@ const Navbar = () => {
             <img src={logo11} alt="logo" className="logostyling" />
           </Link>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler ww"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -44,7 +44,7 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon ww"></span>
           </button>
           <div
             className="collapse navbar-collapse navFix"
@@ -134,7 +134,7 @@ const Navbar = () => {
                   <FontAwesomeIcon icon={faSearch} />
                 </Link>
               </li> */}
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className="nav-link licolor licolor"
                   aria-current="page"
@@ -142,7 +142,7 @@ const Navbar = () => {
                 >
                   <FontAwesomeIcon icon={faSun} />
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

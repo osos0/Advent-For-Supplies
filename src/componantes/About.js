@@ -16,9 +16,9 @@ const About = () => {
           <div className="row">
             <div className="col-lg-6 col-md-12 col-sm-12">
               <h5>. ABOUT US .</h5>
-              <h1>Trusted By Worldwide</h1>
+              <h1>Trusted By Clients</h1>
               <h1>
-                Clients Since <span>1980</span>.
+                Since <span>2021</span>.
               </h1>
               <p>
                 Services We Offer Lorem Ipsum Dolor Sit Amet Consectetur

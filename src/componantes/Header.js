@@ -2,10 +2,13 @@ import React from "react";
 import header from "../img/headerImg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
-  faInstagram,
+  // faFacebook,
+  // faFacebookMessenger,
+  // faInstagram,
   faLinkedin,
-  faTelegram,
+  faSquareFacebook,
+  // faTelegram,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 // import img11 from "../img/headder-full.jpg";
@@ -20,17 +23,32 @@ const Header = () => {
           <div className="row headerCon">
             <div className="col-md-6 col-md-6 col-sm-12 pt-2 leftCon">
               <div className="headerfonteawsomeIcones">
-                <Link>
+                {/* <Link>
                   <FontAwesomeIcon icon={faFacebook} />
+                </Link> */}
+                <Link to="https://www.facebook.com/adventeg" target="_blank">
+                  <FontAwesomeIcon icon={faSquareFacebook} />
                 </Link>
-                <Link>
+                <Link
+                  to="https://www.linkedin.com/in/advent-for-supplies-b82516223/"
+                  target="_blank"
+                >
                   <FontAwesomeIcon icon={faLinkedin} />
                 </Link>
-                <Link>
+                {/* <Link>
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </Link> */}
+                {/* <Link>
                   <FontAwesomeIcon icon={faInstagram} />
-                </Link>
-                <Link>
+                </Link> */}
+                {/* <Link>
                   <FontAwesomeIcon icon={faTelegram} />
+                </Link> */}
+                <Link
+                  to="https://api.whatsapp.com/send?phone=201210008710"
+                  target="_blank"
+                >
+                  <FontAwesomeIcon icon={faWhatsapp} />
                 </Link>
               </div>
               <h5>IT SOLUTIONS</h5>

@@ -8,9 +8,9 @@ import Navbar from "../componantes/Navbar";
 
 import Footer from "../componantes/Footer";
 import Services from "../componantes/Services";
-import Counters from "../componantes/Counter";
+// import Counters from "../componantes/Counter";
 import Whychooseus from "../componantes/Whychooseus";
-import Customers from "../componantes/Customers";
+// import Customers from "../componantes/Customers";
 
 const Home = () => {
   return (
@@ -22,8 +22,8 @@ const Home = () => {
         <About />
         <Whychooseus />
         {/* <FreeLanser /> */}
-        <Counters />
-        <Customers />
+        {/* <Counters /> */}
+        {/* <Customers /> */}
         <Slider />
         <Footer />
       </div>
