@@ -15,15 +15,15 @@ const Hardware = () => {
       <div className="container conOfHardware">
         <h3>HARDWARE SERVICES</h3>
         <p>
-          Interact offers full range of appliances for every IT solution for the
+          ADVENT offers full range of appliances for every IT solution for the
           variable IT environments through our presales specialists to discover
           the existing factors in your IT environment, especially those factors
           which usually costs huge budget to deliver the most effective solution
           that meets your needs.
           <br />
           We are here to develop your business interest, and save your budget.
-          Interact has established partnerships with almost 20+ leading global
-          IT Vendors such as HP, Lenovo, Dell EMC, Cisco, Fortinet, Aruba, APC
+          ADVENT has established partnerships with almost 20+ leading global IT
+          Vendors such as HP, Lenovo, Dell EMC, Cisco, Fortinet, Aruba, APC
           Schneider and more.
         </p>
 
@@ -116,9 +116,9 @@ const Hardware = () => {
                   professional team working to control our spare parts order and
                   stock for HP and Lenovo in addition to general spare parts.
                   <br />
-                  Interact only use HP Certified Replacement Parts by using the
-                  HP PartSurfer, and Original Genuine Lenovo Spare parts unsung
-                  SAP warranty system
+                  ADVENT only use HP Certified Replacement Parts by using the HP
+                  PartSurfer, and Original Genuine Lenovo Spare parts unsung SAP
+                  warranty system
                 </p>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-12">
@@ -160,15 +160,14 @@ const Hardware = () => {
                   <br />
                   Whether you’re moving your IT equipment within the building or
                   around the world, a successful data center relocation or
-                  consolidation requires careful planning and execution.
-                  Interact technical and logistics experts can support you
-                  through this complex process every step of the way. We will
-                  help you anticipate and resolve unexpected challenges – big
-                  and small – long before they become problems, and minimize
-                  downtime by getting you back up and running as soon as
-                  possible.
-                  <br /> <span>Interact Relocation Services includes: </span>
-                  <br />. Interact Relocation Services includes:
+                  consolidation requires careful planning and execution. ADVENT
+                  technical and logistics experts can support you through this
+                  complex process every step of the way. We will help you
+                  anticipate and resolve unexpected challenges – big and small –
+                  long before they become problems, and minimize downtime by
+                  getting you back up and running as soon as possible.
+                  <br /> <span>ADVENT Relocation Services includes: </span>
+                  <br />. ADVENT Relocation Services includes:
                   <br />. Detailed site surveys and visits at all required
                   locations.
                   <br />. Complete preparation of all locations prior to the
@@ -183,7 +182,7 @@ const Hardware = () => {
                   <br />. Dedicated Curvature relocation team to provide a
                   consistent and pleasant experience throughout the process.
                   <br />. Relocation projects can be expanded to include any of
-                  Interact managed and professional services such as system
+                  ADVENT managed and professional services such as system
                   administration support, hardware reconfigurations and
                   upgrades, and IT asset recovery.
                 </p>
@@ -202,7 +201,7 @@ const Hardware = () => {
               <div className="col-lg-8 col-md-8 col-sm-12">
                 <p>
                   <br />
-                  Interact Technology Solutions provides you with an on-site
+                  ADVENT Technology Solutions provides you with an on-site
                   evaluation and analysis of your data center or network closet
                   with recommendations to maximize availability, improve energy
                   efficiency and reduce energy-related costs.
@@ -237,7 +236,7 @@ const Hardware = () => {
                   <br />
                   Data centers were not built to scale up and keep pace with the
                   rapid adoption of cloud, edge and high-performance computing
-                  or address the pervasive risk landscape, therefore, Interact
+                  or address the pervasive risk landscape, therefore, ADVENT
                   Technology Solutions offers complete Data Center support for
                   your existing data center.
                   <br /> <span>- Our services includes: </span>

@@ -35,10 +35,11 @@ const About = () => {
                       <FontAwesomeIcon icon={faCertificate} />
                     </div>
                     <div>
-                      <h4>First On Field</h4>
+                      <h4>Vision</h4>
                       <p>
-                        Lorem ipsum dolor sit amet consecltetur adipisicing
-                        elit. Omnis.
+                        MEST is developing and marketing a wide range of
+                        products and services catering to the varied and
+                        specific needs of the growing technology businesses
                       </p>
                     </div>
                   </div>
@@ -49,10 +50,11 @@ const About = () => {
                       <FontAwesomeIcon icon={faGamepad} />
                     </div>
                     <div>
-                      <h4>Easy To Reach</h4>
+                      <h4>Strategy</h4>
                       <p>
-                        Lorem ipsum dolor sit amet consecltetur adipisicing
-                        elit. Omnis.
+                        Lead the transformation of business through Digital, IT,
+                        Security and enable customers to operate their
+                        businesses with simpler, more cost-effective networks
                       </p>
                     </div>
                   </div>
@@ -63,10 +65,12 @@ const About = () => {
                       <FontAwesomeIcon icon={faSuitcase} />
                     </div>
                     <div>
-                      <h4>Worldwide Services</h4>
+                      <h4>Mission</h4>
                       <p>
-                        Lorem ipsum dolor sit amet consecltetur adipisicing
-                        elit. Omnis.
+                        Transforming the business lane to an essential
+                        infrastructure company that provides a safe, secure,
+                        intelligent, and flexible network infrastructure to
+                        deliver an immersive digital experience
                       </p>
                     </div>
                   </div>
@@ -77,10 +81,13 @@ const About = () => {
                       <FontAwesomeIcon icon={faHandHoldingDroplet} />
                     </div>
                     <div>
-                      <h4>24/7 Support</h4>
+                      <h4>Purpose</h4>
                       <p>
-                        Lorem ipsum dolor sit amet consecltetur adipisicing
-                        elit. Omnis.
+                        Creating a new prestige of work that lets our previous
+                        clients improve their business with us, and our new
+                        clients to have the confidence and receive the best
+                        service and solutions, Connecting technologies that
+                        drive human progress
                       </p>
                     </div>
                   </div>
