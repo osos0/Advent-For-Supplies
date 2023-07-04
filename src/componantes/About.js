@@ -37,7 +37,7 @@ const About = () => {
                     <div>
                       <h4>Vision</h4>
                       <p>
-                        MEST is developing and marketing a wide range of
+                        ADVENT is developing and marketing a wide range of
                         products and services catering to the varied and
                         specific needs of the growing technology businesses
                       </p>
