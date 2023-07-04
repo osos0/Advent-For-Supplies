@@ -1,0 +1,22 @@
+@use "./Vars" as *;
+
+.conOfHardware {
+  h3 {
+    color: $main-color;
+    margin: 20px auto;
+    text-align: center;
+  }
+  h4 {
+    color: $main-color;
+  }
+
+  .conOfnetworkimg {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      max-width: 100%;
+    }
+  }
+}

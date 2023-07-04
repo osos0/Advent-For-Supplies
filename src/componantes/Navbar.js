@@ -68,7 +68,11 @@ const Navbar = () => {
                   </button>
                   <ul className="dropdown-menu">
                     <li>
-                      <Link className="dropdown-item" type="button">
+                      <Link
+                        to={`/hardwaresolutions`}
+                        className="dropdown-item"
+                        type="button"
+                      >
                         Hardware solutions
                       </Link>
                     </li>

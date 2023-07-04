@@ -7,7 +7,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
-import web from "../img/Web.jpg";
+// import web from "../img/Web.jpg";
 
 const Services = () => {
   return (
@@ -62,7 +62,7 @@ const Services = () => {
                   Read More
                   <FontAwesomeIcon icon={faArrowRight} className="secondSvg" />
                 </Link>
-                <img src={web} alt="web" className="servChildImg" />
+                {/* <img src={web} alt="web" className="servChildImg" /> */}
               </div>
             </div>
           </div>
