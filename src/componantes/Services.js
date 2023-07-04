@@ -30,7 +30,7 @@ const Services = () => {
                   delivering innovative and customized technology solutions to
                   empower businesses and drive digital transformation.
                 </p>
-                <Link>
+                <Link to={"/hardwaresolutions"}>
                   Read More
                   <FontAwesomeIcon icon={faArrowRight} className="secondSvg" />
                 </Link>

@@ -2,6 +2,7 @@ import React from "react";
 
 import Presales from "../img/Pre-sales.png";
 import Aftersales from "../img/After-sales.png";
+import AftersalesConsultancy from "../img/AftersalesConsultancy.png";
 import SpareParts from "../img/SpareParts.jpg";
 import UPS from "../img/UPS.jpg";
 import DataCenter from "../img/DataCenter.png";
@@ -72,6 +73,33 @@ const Hardware = () => {
               <div className="col-lg-4 col-md-4 col-sm-12">
                 <div className="conOfnetworkimg">
                   <img src={Aftersales} alt="mission" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-12 col-md-12 col-sm-12">
+            <div className="row ">
+              <h3>After-sales Consultancy</h3>
+              <div className="col-lg-8 col-md-8 col-sm-12">
+                <p>
+                  <br />
+                  We deliver Warranty Services and Hardware support for
+                  out-of-warranty cases. <br />. On-Site Delivery
+                  <br /> <span>Standard Features:</span>
+                  <br />. Trouble Shooting
+                  <br />. Failure Diagnostics
+                  <br />. Repair
+                  <br />. Online Support
+                  <br /> <span>Optional Features:</span>
+                  <br />. Provide Spare Parts (for out of warranty cases)
+                  <br />. Pickup and Return Services
+                  <br />. Hardware Upgrade
+                </p>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-12">
+                <div className="conOfnetworkimg">
+                  <img src={AftersalesConsultancy} alt="mission" />
                 </div>
               </div>
             </div>
